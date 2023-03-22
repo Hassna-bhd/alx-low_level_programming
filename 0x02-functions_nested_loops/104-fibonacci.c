@@ -40,7 +40,7 @@ for (i = 92; i < 99; ++i)
 }
 printf("\n");
 return (0);
-}
+};
 _putchar.c
 
 #include "main.h"
@@ -56,7 +56,7 @@ _putchar.c
 int _putchar(char c)
 {
 return (write(1, &c, 1));
-}
+};
 main.h
 #ifndef main_h
 #define main_h
